@@ -8,8 +8,8 @@ class Header extends Component {
             <nav className="navArea">
                 <Link to='/'><img src={img} className="logoImg"/></Link>
                 <div>
-                    <Link to="/a/r2" className="navLink"><b>Post</b></Link>
-                    <Link to="/a/r1" className="navLink"><b>Introduce</b></Link>
+                    <Link to="/posts" className="navLink"><b>Post</b></Link>
+                    <Link to="/introduce" className="navLink"><b>Introduce</b></Link>
                 </div>
             </nav>
         );
