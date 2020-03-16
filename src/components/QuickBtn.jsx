@@ -1,13 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const QuickBtn = () => {
     return (
         <div className="mainUnderContent">
             <div className="introArea">
-                <h1>소개바로가기</h1>
+                <Link to="/introduce"><h1>소개바로가기</h1></Link>
             </div>
             <div className="postArea">
-                <h1>포스트 미리보기</h1>
+                <Link to="/posts"><h1>포스트 미리보기</h1></Link>
             </div>
         </div>
     );
