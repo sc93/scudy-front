@@ -7,11 +7,8 @@ import PostList from './components/PostList';
 import Login from './components/Login';
 
 const App = () => {
-
-
     return (
         <BrowserRouter>
-            
             <Header />
             <Route exact path="/" component={Content} />
             <Route exact path="/introduce" component={Introduce}/>

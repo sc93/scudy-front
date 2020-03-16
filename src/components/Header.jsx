@@ -1,8 +1,8 @@
 import React, {useCallback, memo} from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import {timerStart, timerEnd} from '../modules/timer'
+import {timerStart, timerEnd} from '../modules/timer';
 import { Link } from 'react-router-dom';
-const img = require('./logo192.png')
+const img = require('./logo192.png');
 const Header = memo(()=> {
     const {studying, startTime, endTime} = useSelector(state => state.timer,[]);
     const dispatch = useDispatch();
