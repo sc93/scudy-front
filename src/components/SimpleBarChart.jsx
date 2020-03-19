@@ -10,10 +10,11 @@ const data = [
     {date : '20-03-18', time : 0},
     {date : '20-03-19', time : 120},
 ];
+const marginLeft = getThisWidth()/3 - getThisWidth()/4;
 const SimpleBarChart = () => {
     return (
-        <BarChart width={getThisWidth()/2} height={450} data={data}
-            margin={{ top: 150, right: 30, left: 20, bottom: 0 }}>
+        <BarChart width={(getThisWidth()/2)} height={450} data={data}
+            margin={{ top: 150, right: 30, left: 50, bottom: 0 }}>
             <CartesianGrid strokeDasharray="3 3" />
             <XAxis dataKey="date" />
             <YAxis />
